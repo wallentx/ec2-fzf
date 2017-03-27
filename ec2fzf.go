@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/solarnz/fzf/src"
+	"github.com/wallentx/fzf/src"
 )
 
 type Ec2fzf struct {

@@ -20,7 +20,7 @@ type Options struct {
 func ParseOptions() (Options, error) {
 	options := Options{
 		Region:       "us-east-1",
-		UsePrivateIp: false,
+		UsePrivateIp: true,
 		Template:     `{{index .Tags "Name"}}`,
 	}
 
